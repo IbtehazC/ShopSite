@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace Shop.Core.Models
 {
-    public class ProductCategory
+    public class ProductCategory : BaseEnitity
     {
-        public string Id { get; set; }
         public string Category { get; set; }
-
-        public ProductCategory()
-        {
-            this.Id = Guid.NewGuid().ToString();
-        }
     }
 }
