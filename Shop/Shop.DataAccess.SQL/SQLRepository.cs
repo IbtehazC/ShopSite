@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Shop.DataAccess.SQL
 {
-    public class SQLRepository<T> : IRepository<T> where T : BaseEnitity
+    public class SQLRepository<T> : IRepository<T> where T : BaseEntity
     {
 
         internal DataContext context;

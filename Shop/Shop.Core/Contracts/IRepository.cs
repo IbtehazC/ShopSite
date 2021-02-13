@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Shop.Core.Contracts
 {
-    public interface IRepository<T> where T : BaseEnitity
+    public interface IRepository<T> where T : BaseEntity
     {
         IQueryable<T> Collection();
         void Commit();
